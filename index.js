@@ -41,7 +41,7 @@ function composeChartTemplate (chartTemplateInputPath, chartTemplateOutputPath, 
 };
 
 module.exports = function (inputData, chartDefinition, outputFilePath, options, nightmare) {
-    assert.isString(outputFilePath, "c3-chart-maker: Expected parameter outputFilePath to be a string.");    
+    // assert.isString(outputFilePath, "c3-chart-maker: Expected parameter outputFilePath to be a string.");    
 
     options = options || {};
 
